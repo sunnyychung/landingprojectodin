@@ -1,0 +1,189 @@
+body {
+    font-family: 'Hero New', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header, .footer, .section1 {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.headlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.header ul li a{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-weight: 300;
+    gap: 50px;
+    margin: 0;
+    padding: 100px 50px;
+    flex-wrap: wrap;
+}
+
+.s1left {
+    width: 420px;
+}
+
+.s1right img {
+    height: 200px;
+    width: 420px;
+    object-fit: cover;
+    flex: 1 0 auto;
+}
+
+.s1left h1 {
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.s1left p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 7px;
+    color: #E5E7EB;
+}
+
+.s1button {
+    background-color: #3882F6;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    color: #F9FAF8;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px 200px 0px; 
+}
+
+.section2 h1 {
+    padding-bottom: 40px;
+}
+
+.section2 .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.card img {
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    flex: 1 0 auto;
+}
+
+.card {
+    width: 175px;
+    text-align: center;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    width: 900px;
+}
+
+.section3 .quotetext {
+    font-weight: 290;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.section3 .quoteby {
+    text-align: end;
+    font-weight: 500;
+}
+
+.popup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 100px 250px;
+    padding: 40px 100px;
+    border-radius: 10px;
+    display: flex;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+.poptitle {
+    font-size: 20px;
+    font-weight: 575;
+}
+
+.poptext {
+    font-weight: 300;
+}
+
+.popupright button {
+    background-color: transparent;
+    border-color: #E5E7EB;
+    border-radius: 10px;
+    padding: 7px 25px;
+    color: #E5E7EB;
+    font-size: 12px;
+    font-weight: 575;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding: 50px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/hero-new');
